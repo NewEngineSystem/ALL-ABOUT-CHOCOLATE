@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    padding: 30px;
+    margin: 0;
+}
+
+h2{
+    line-height: 0%;
+}
+
+.text{
+    margin: 0;
+    padding: 20px;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+}
+
+.social img{
+    width: 80px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: 300px; /*Высота блока*/
+    background-color: #d0ff01;  /*Цвет фона*/
+    color: #ffffff;  /*Цвет текста*/
+    text-align: center;  /*Выравнивание текста*/
+    font-size: 50px;  /*Размер текста*/
+    background-image: url(https://s0.rbk.ru/v6_top_pics/media/img/5/03/756710018675035.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    font-family: "Impact";
+} 
+
+main{
+    height: 100%; /*Высота блока*/
+    background-color: #5a2d08;  /*Цвет фона*/
+    color: #ffffff;  /*Цвет текста*/
+    text-align: left;  /*Выравнивание текста*/
+    font-size: 50px;  /*Размер текста*/
+    padding: 10px;
+    background-image: url(image.png);
+    background-position: center;
+    background-size: 100%;
+    font-family: "Impact";
+    display: flex;
+}
+
+footer{
+    height:300px; /*Высота блока*/
+    background-color: #1100aa;  /*Цвет фона*/
+    color: white;  /*Цвет текста*/
+    text-align: center;  /*Выравнивание текста*/
+    font-size: 50px;  /*Размер текста*/
+    height: 800px; /*Высота блока*/
+    padding: 10px;
+    background-image: url(https://cdn2.scratch.mit.edu/get_image/user/102286767_60x60.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    padding: 20px;
+}
